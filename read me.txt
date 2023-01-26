@@ -1,0 +1,8 @@
+=>code .(open visula stduo)
+=>terminal->new terminal.
+=>touch index.php(creat new file )
+
+only first Time :
+git config:
+*git config --global user.name "Abadul haque"
+*git config --global user.email rrubel@gmail.com

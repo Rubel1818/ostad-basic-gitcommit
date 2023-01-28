@@ -7,8 +7,15 @@ git config:
 *git config --global user.name "Abadul haque"
 *git config --global user.email rrubel@gmail.com
 
+//git init
+git add .
+git comit -m "initial commit"
+git branch -H main
+git .......................
+git push -u ..... main
 
-  add new line
+
+  //add new line
 $git add .
 $git commit -m "new line added"
 $git push

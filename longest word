@@ -1,0 +1,19 @@
+<?php
+$string = "The quick brown fox jumped over the lazy dog";
+
+function findLongestWord($str) {
+  $words = explode(" ", $str);
+  $longest_word = "";
+  
+  foreach($words as $word) {
+    if(strlen($word) > strlen($longest_word)) {
+      $longest_word = $word;
+    }
+  }
+  
+  return $longest_word;
+}
+
+$longest_word = findLongestWord($string);
+echo $longest_word;
+?>
